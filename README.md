@@ -44,4 +44,16 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/)
+
+
+## How to Run the Scripts
+
+1. Open **MongoDB Compass** or connect using **mongosh**.
+2. Use the `plp_bookstore` database:
+=use plp_bookstore
+3. Load and run `insert_books.js` to populate the database:
+=load("insert_books.js")
+4. Run the queries by loading `queries.js`:
+   =load("queries.js")
+   
